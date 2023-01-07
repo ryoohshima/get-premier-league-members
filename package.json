@@ -1,0 +1,26 @@
+{
+  "name": "premier-league-members",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copy": "cp src/* dist/",
+    "push": "clasp push",
+    "deploy": "npm run copy && npm run push"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.48.0",
+    "eslint-config-standard-with-typescript": "^26.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@types/google-apps-script": "^1.0.56",
+    "clasp": "^1.0.0"
+  }
+}
